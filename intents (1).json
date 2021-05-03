@@ -1,0 +1,158 @@
+{"intents": [
+        {"tag": "greeting",
+        "patterns": ["HI","Hello","Hi there","Is there anyone","Good morning","Good afternoon","Good evening","Hola","Hey there","Hey","Hello sara"],
+        "responses": ["Hi there how are you, How can i help you","It's nice to see you, how are you"],
+        "context": [""]
+        },
+        {"tag": "mood_happy",
+        "patterns": ["I'm good","I'm fine","fine","Nice","Good","lovely","awesome","existing"],
+        "responses": ["Great! Let's move"],
+        "context": [""]
+        },
+        {"tag": "mood_unhappy",
+        "patterns": ["I'm not good","I feel bad","Not ok","Not good","Not allright","feel lost"],
+        "responses": ["What happens, let's come to the point life's having up and downs it's casual for everyone but dont fell sad you may the best person i've ever seen in my life"],
+        "context": [""]
+        },
+        {"tag": "what",
+        "patterns": ["what is covid","what is corona virus","what is covid19","can you tell me about covid19","did you know anything about covid19","explain coivd"],
+        "responses": ["COVID-19 is a disease caused by a new strain of coronavirus. 'CO' stands for corona, 'VI' for virus, and 'D' for disease. Formerly, this disease was referred to as '2019 novel coronavirus' or '2019-nCoV.'"],
+        "context": [""]
+        },
+        {"tag": "vaccine",
+        "patterns": ["what are the vaccines available for the covid","vaccines","what vaccines for corona virus","vaccine list","vaccine available"],
+        "responses": ["Currently, India is using the AstraZeneca vaccine, locally known as Covishield and produced by the Serum Institute of India, and Bharat Biotech's Covaxin"],
+        "context": [""]
+        },
+        {"tag": "treatment",
+        "patterns": ["what are the treatments for covid 19","treatments for covid19","treatments available","treatments"],
+        "responses": ["After exposure to someone who has COVID-19, do the following: Call your health care provider or COVID-19 hotline to find out where and when to get a test.Cooperate with contact-tracing procedures to stop the spread of the virus.If testing is not available, stay home and away from others for 14 days.While you are in quarantine, do not go to work, to school or to public places. Ask someone to bring you supplies.Keep at least a 1-metre distance from others, even from your family members.Wear a medical mask to protect others, including if/when you need to seek medical.Clean your hands frequently.Stay in a separate room from other family members, and if not possible, wear a medical mask.Keep the room well-ventilated.If you share a room, place beds at least 1 metre apart.Monitor yourself for any symptoms for 14 days.Call your health care provider immediately if you have any of these danger signs: difficulty breathing, loss of speech or mobility, confusion or chest pain.Stay positive by keeping in touch with loved ones by phone or online, and by exercising at home"],
+        "context": [""]
+        },
+        {"tag": "safety",
+        "patterns": ["What precautions can I take to avoid contracting COVID-19?","what precautions should be take care to avoid covid","safety precautions of covid19"],
+        "responses": ["Wash your hands often with soap and water for at least 20 seconds. Use an alcohol-based hand sanitizer that contains at least 60% alcohol if soap and water are not available.Avoid touching your eyes, nose, and mouth with unwashed hands.Avoid close contact with people who are sick.Cover your cough or sneeze with a tissue, then throw the tissue in the trash.Clean and disinfect frequently touched objects and surfaces.Maintain at least 1 meter (3 feet) distance between yourself and other people, particularly those who are coughing, sneezing and have a fever.Wear cloth face coverings in public settings where other social distancing measures are difficult to maintain."],
+        "context": [""]
+        },
+        {"tag": "where",
+        "patterns": ["where is the coronavirus first spread","where was covid19 starts","covid19 birth place"],
+        "responses": ["Retrospective investigations by Chinese authorities have identified human cases with onset of symptoms in early December 2019. While some of the earliest known cases had a link to a wholesale food market in Wuhan, some did not."],
+        "context": [""]
+        },
+        {"tag": "instructions",
+        "patterns": ["what are the instructions of covid19","instructions of covid","instructions"],
+        "responses": ["Wear a mask that covers your nose and mouth to help protect yourself and others.Stay 6 feet apart from others who don’t live with you.Get a COVID-19 vaccine when it is available to you.Avoid crowds and poorly ventilated indoor spaces.Wash your hands often with soap and water. Use hand sanitizer if soap and water aren’t available."],
+        "context": [""]
+        },
+        {"tag": "worldwidecases",
+        "patterns": ["show me the world wide cases","world wide cases","cases in the world"],
+        "responses": ["https://www.worldometers.info/coronavirus/"],
+        "context": [""]
+        },
+        {"tag": "symptoms",
+        "patterns": ["what are the most common symptoms of covid 19","symptoms of covid19","symptoms"],
+        "responses": ["Most common symptoms:fever dry cough tiredness Less common symptoms: aches and pains sore throat diarrhoea conjunctivitis headache loss of taste or smell a rash on skin, or discolouration of fingers or toes"],
+        "context": [""]
+        },
+        {"tag": "organs",
+        "patterns": ["what are organs affected by covid19","organs affected by corona virus"],
+        "responses": ["The lungs are the organs most affected by COVID‐19"],
+        "context": [""]
+        },
+        {"tag": "spread",
+        "patterns": ["spread of covid","spread of corona","how corona spread","how can covid spread"],
+        "responses": ["Experts believe the virus that causes COVID-19 spreads mainly from person to person. There are several ways this can happen: Droplets or aerosols. When an infected person coughs, sneezes, or talks, droplets or tiny particles called aerosols carry the virus into the air from their nose or mouth."],
+        "context": [""]
+        },
+        {"tag": "vaccine_safe",
+        "patterns": ["is covid vaccine safe","vaccine safe","is vaccine safe to take"],
+        "responses": ["COVID-19 vaccines are safe and effective. Millions of people in the United States have received COVID-19 vaccines under the most intense safety monitoring in American history."],
+        "context": [""]
+        },
+        {"tag": "side_effects",
+        "patterns": ["side effects of vaccine","what are the side effects of corona vaccine","side effects"],
+        "responses": ["Normal side effects of the COVID vaccine include fever, nausea, and muscle soreness, which usually go away in a few days."],
+        "context": [""]
+        },
+        {"tag": "register",
+        "patterns": ["How can i register for the covid vaccine","registeration of covid vaccine","registration link","How to register for covid vaccine"],
+        "responses": ["https://selfregistration.cowin.gov.in/"],
+        "context": [""]
+        },
+        {"tag": "thanks",
+        "patterns": ["thanks for the kind of information","Thanks","Thank you","TQ","tq","Thank you for being helpful"],
+        "responses": ["It's my pleasure, i'm here to protect you as well as assist you"],
+        "context": [""]
+        },
+        {"tag": "bye",
+        "patterns": ["Bye","See you soon","cu","bye take care"],
+        "responses": ["Bye, i'll see you soon"],
+        "context": [""]
+        },
+        {"tag": "noanswer",
+        "patterns": [],
+        "responses": ["Sorry i can't understand","Please give me more info","Please check your query","Please elobarete your query clearly"],
+        "context": [""]
+        },
+        {"tag": "help",
+        "patterns": ["How you could help me","What you can do","What help you provide","What purpose are you here"],
+        "responses": ["I'm here to assist you about the covid related info"],
+        "context": [""]
+        },
+        {"tag": "created",
+        "patterns": ["Who created you","created by","who made you","your creater name"],
+        "responses": ["I was created by Mr.Praneeth kumar","Mr.Praneeth kumar created me"],
+        "context": [""]
+        },
+        {"tag": "auther",
+        "patterns": ["can you tell me little something about him","tell me about the auther","can you define him","what he's up to","who is he"],
+        "context": [""]
+        },
+        {"tag": "contact",
+        "patterns": ["how can i contact him","can i contact him","his contact details","contact details","share some details about him"],
+        "responses": ["Github: https://github.com/praneeth300 Phone:8309116050 Linkedln: https://www.linkedin.com/in/praneeth-kumar-84a15317b/"],
+        "context": [""]
+        },
+        {"tag": "bot_challenge",
+        "patterns": ["iam i talking to a bot","are you a bot","are you a robot"],
+        "responses": ["Yes,I'm a bot Powered by Python"],
+        "context": [""]
+        },
+        {"tag": "animal",
+        "patterns": ["Which animal causes spread corona","which animal causes of covid","covid spread by animal"],
+        "responses": ["There is no exact information on the internet, the covid is spreaded by the animal. Most of the people speaking covid is caused by the bat but there is no particular evidence"],
+        "context": [""]
+        },
+        {"tag": "gender",
+        "patterns": ["are you a boy or girl","are you a boy","are you a girl","boy or girl","your gender","are you male or female","male or female"],
+        "responses": ["I'm genderless because i'm a bot"],
+        "context": [""]
+        },
+        {"tag": "friend",
+        "patterns": ["did u have a boyfriend","Do you have a boyfriend","Do you have a girlfriend","Did you have a girlfriend"],
+        "responses": ["No, i don't have it"],
+        "context": [""]
+        },
+        {"tag": "love",
+        "patterns": ["can i love you","i love you","ilu","143","i love you so much"],
+        "responses": ["Really, sound's great i love you too dear"],
+        "context": [""]
+        },
+        {"tag": "name",
+        "patterns": ["Your sweet name please","your name","name","your good name please","your lovely name"],
+        "responses": ["You can call me Sara","Just call me Sara"],
+        "context": [""]
+        },
+        {"tag": "food_habits",
+        "patterns": ["food habits of corona virus","Food habits of covid pateint","Food habits","Generally what type of food should be taken during covid"],
+        "responses": ["Prefer foods that contain healthy sources of unsaturated fats, such as fish and nuts. To limit saturated fats, trim excess fat from meat and poultry and choose skinless options. Reduce foods such as red and fatty meats, butter and full-fat dairy products, palm oil, coconut oil, solid shortening and lard."],
+        "context": [""]
+        },
+        {"tag": "test",
+        "patterns": ["How to get tested for covid","how to test corona virus","Which procedure should we follow to test covid","Testing procedure of covid","what are the common test's involoved to test covid"],
+        "responses": ["Swab Test,Nasal aspirate,Tracheal aspirate,Sputum Test,Blood test"],
+        "context": [""]
+        }
+    ]
+
+}
